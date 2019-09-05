@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="DecisionML"
-    targetNamespace="http://tempuri.org/DecisionML.xsd"
+    targetNamespace="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
     elementFormDefault="qualified"
-    xmlns="http://tempuri.org/DecisionML.xsd"
-    xmlns:mstns="http://tempuri.org/DecisionML.xsd"
+    xmlns="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
+    xmlns:mstns="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
   <xs:element name="Decision">
