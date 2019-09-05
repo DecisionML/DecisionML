@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="DecisionML"
-    targetNamespace="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
+    targetNamespace="DecisionML"
     elementFormDefault="qualified"
     xmlns="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
     xmlns:mstns="https://decisionml.github.io/DecisionML/DecisionML/DecisionML.xsd"
