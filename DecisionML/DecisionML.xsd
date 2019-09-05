@@ -17,6 +17,8 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+      <xs:element name="Outcome" maxOccurs="1">
+      </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
