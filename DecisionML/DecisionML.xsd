@@ -10,7 +10,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Choice" minOccurs="1">
-          <xs:complexType>
+          <xs:complexType id="ChoiceType">
             <xs:sequence>
               <xs:element name="Name" maxOccurs="1"></xs:element>
             <xs:element name="Factor" minOccurs="1"></xs:element>
@@ -18,6 +18,11 @@
           </xs:complexType>
         </xs:element>
       <xs:element name="Outcome" maxOccurs="1">
+        <xs:complexType id="OutcomeType">
+          <xs:sequence>
+            <xs:element name="Name"></xs:element>
+          </xs:sequence>
+        </xs:complexType>
       </xs:element>
       </xs:sequence>
     </xs:complexType>
