@@ -10,17 +10,24 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Choice" minOccurs="1">
-          <xs:complexType id="ChoiceType">
+          <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" maxOccurs="1"></xs:element>
-            <xs:element name="Factor" minOccurs="1"></xs:element>
+            <xs:element name="Factor" minOccurs="1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:any minOccurs="1" maxOccurs="unbounded"></xs:any>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
       <xs:element name="Outcome" maxOccurs="1">
-        <xs:complexType id="OutcomeType">
+        <xs:complexType>
           <xs:sequence>
             <xs:element name="Name"></xs:element>
+            <xs:any minOccurs="1" maxOccurs="unbounded"></xs:any>
           </xs:sequence>
         </xs:complexType>
       </xs:element>
